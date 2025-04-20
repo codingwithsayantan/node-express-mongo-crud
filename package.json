@@ -1,0 +1,30 @@
+{
+  "name": "express-mongo-crud",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/codingwithsayantan/node-express-mongo-crud#readme",
+  "bugs": {
+    "url": "https://github.com/codingwithsayantan/node-express-mongo-crud/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingwithsayantan/node-express-mongo-crud.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd -f .env.dev node app.js",
+    "start:dev": "env-cmd -f .env.dev nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
