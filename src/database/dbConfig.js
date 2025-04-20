@@ -1,6 +1,7 @@
 import { MongoClient } from "mongodb";
 
 const connString = process.env.MONGODB_STRING || "mongodb://localhost:27017";
+console.log("MongoDB connection string: ", connString);
 
 export const connectDB = async () => {
   let client;
